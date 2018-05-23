@@ -38,6 +38,4 @@ public class InvalidLoginStepDef {
 	public void message_displayed_login_successfull() throws Throwable {
 		driver.close();
 	}
-
-
 }
