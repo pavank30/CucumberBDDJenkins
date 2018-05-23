@@ -1,0 +1,410 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 33,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "login-funcationality-for-store.demoqa.com;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13747740165,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "InvalidLoginStepDef.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1929891250,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user naviagtes to LoginPage",
+            "match": {
+              "location": "InvalidLoginStepDef.user_naviagtes_to_LoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371893663,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters  \"testuser_1\" and \"Test@153\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testuser_1",
+                  "offset": 14
+                },
+                {
+                  "val": "Test@153",
+                  "offset": 31
+                }
+              ],
+              "location": "InvalidLoginStepDef.user_enters_UserName_and_Passowrd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2090759421,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Message displayed login successfull",
+            "match": {
+              "location": "InvalidLoginStepDef.message_displayed_login_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag"
+          },
+          {
+            "line": 24,
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "login-funcationality-for-store.demoqa.com;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9127585345,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "InvalidLoginStepDef.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2309012859,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user naviagtes to LoginPage",
+            "match": {
+              "location": "InvalidLoginStepDef.user_naviagtes_to_LoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282180105,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters  \"testuser_2\" and \"Test@153\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testuser_2",
+                  "offset": 14
+                },
+                {
+                  "val": "Test@153",
+                  "offset": 31
+                }
+              ],
+              "location": "InvalidLoginStepDef.user_enters_UserName_and_Passowrd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44590201,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Message displayed login successfull",
+            "match": {
+              "location": "InvalidLoginStepDef.message_displayed_login_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag"
+          },
+          {
+            "line": 24,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Login funcationality for store.demoqa.com",
+    "description": "I want to use this template for my feature file",
+    "id": "login-funcationality-for-store.demoqa.com",
+    "keyword": "Feature",
+    "uri": "InvalidLogin.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@tag"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Login to FreeCRM with valid credentials",
+        "description": "",
+        "id": "login-funcationality-for-freecrm;login-to-freecrm-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7358553805,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Open Chrome and load page",
+            "match": {
+              "location": "ValidLoginStepDef.open_Chrome_and_load_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182973741,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter valid username and password",
+            "match": {
+              "location": "ValidLoginStepDef.i_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9240891106,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on Login button",
+            "match": {
+              "location": "ValidLoginStepDef.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66753599,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should login successfully",
+            "match": {
+              "location": "ValidLoginStepDef.user_should_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login funcationality for FreeCRM",
+    "description": "",
+    "id": "login-funcationality-for-freecrm",
+    "keyword": "Feature",
+    "uri": "ValidLogin.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@tag"
+      }
+    ]
+  }
+]

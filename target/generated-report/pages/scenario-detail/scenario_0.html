@@ -1,0 +1,212 @@
+<!-- Copyright 2018 trivago N.V.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="../..">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Cluecumber Report Plugin [0.6.0] - Suite Overview">
+<meta name="author" content="Cluecumber Report Plugin [0.6.0]">
+<title>Suite Overview - 2018/05/23 11:12:24</title><link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link href="css/cluecumber.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css"/></head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <span class="navbar-brand">Scenario Details</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="pages/tag-summary.html">Tag Summary</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Suite Overview</a>
+            </li>
+        </ul>
+        <span class="text-light">2018/05/23 11:12:24</span>
+    </div>
+</nav>
+
+<main role="main" class="container">
+    <div class="cluecumber-template">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card h-100">
+                    <div class="card-header">Scenario Result Chart</div>
+                    <div class="card-body">
+                        <div id="canvas-holder" class="w-100 text-center">
+                            <canvas id="chart-area" class="w50"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card h-100">
+                    <div class="card-header">Scenario Information</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>4</strong> Steps:
+                                <strong>4</strong> passed /
+                                <strong>0</strong> failed /
+                                <strong>0</strong> skipped</li>
+                            <li class="list-group-item"><strong>Total Time:</strong>
+                                0m 18s 140ms</li>
+                                <li class="list-group-item">@tag</li>
+                                <li class="list-group-item">@tag2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header text-capitalize">Title of your scenario outline</div>
+
+                    <div class="card-body">
+                        <div class="container" style="border-bottom: black 2px dotted; opacity: 0.5;">
+                        </div>
+
+                        <div class="container" style="border-bottom: black 2px dotted">
+                                <div class="row border border-top-0 border-left-0 border-right-0">
+                                    <div class="col-1 text-left">
+                                        <nobr>Step 1</nobr>
+                                    </div>
+                                    <div class="col-7 text-left">
+                                        <span data-toggle="tooltip"
+                                              title="InvalidLoginStepDef.user_is_on_the_homepage()">Given  User is on the homepage</span>
+                                    </div>
+                                    <div class="col-2 text-left">
+                                        <nobr>0m 13s 747ms</nobr>
+                                    </div>
+                                    <div class="col-2 text-left">
+                                        <span class="text-success">passed</span>
+                                    </div>
+                                </div>
+                                <div class="row border border-top-0 border-left-0 border-right-0">
+                                    <div class="col-1 text-left">
+                                        <nobr>Step 2</nobr>
+                                    </div>
+                                    <div class="col-7 text-left">
+                                        <span data-toggle="tooltip"
+                                              title="InvalidLoginStepDef.user_naviagtes_to_LoginPage()">When  user naviagtes to LoginPage</span>
+                                    </div>
+                                    <div class="col-2 text-left">
+                                        <nobr>0m 01s 929ms</nobr>
+                                    </div>
+                                    <div class="col-2 text-left">
+                                        <span class="text-success">passed</span>
+                                    </div>
+                                </div>
+                                <div class="row border border-top-0 border-left-0 border-right-0">
+                                    <div class="col-1 text-left">
+                                        <nobr>Step 3</nobr>
+                                    </div>
+                                    <div class="col-7 text-left">
+                                        <span data-toggle="tooltip"
+                                              title="InvalidLoginStepDef.user_enters_UserName_and_Passowrd(String,String)">And  User enters  "testuser_1" and "Test@153"</span>
+                                    </div>
+                                    <div class="col-2 text-left">
+                                        <nobr>0m 00s 371ms</nobr>
+                                    </div>
+                                    <div class="col-2 text-left">
+                                        <span class="text-success">passed</span>
+                                    </div>
+                                </div>
+                                <div class="row border border-top-0 border-left-0 border-right-0">
+                                    <div class="col-1 text-left">
+                                        <nobr>Step 4</nobr>
+                                    </div>
+                                    <div class="col-7 text-left">
+                                        <span data-toggle="tooltip"
+                                              title="InvalidLoginStepDef.message_displayed_login_successfull()">Then  Message displayed login successfull</span>
+                                    </div>
+                                    <div class="col-2 text-left">
+                                        <nobr>0m 02s 090ms</nobr>
+                                    </div>
+                                    <div class="col-2 text-left">
+                                        <span class="text-success">passed</span>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="container" style="opacity: 0.5;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer navbar-dark bg-dark">
+    <div class="container-fluid">
+        <span class="text-muted">Generated by Cluecumber Report Plugin [0.6.0], 2018/05/23 11:12:24.</span>
+    </div>
+</footer><script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/dataTables.bootstrap4.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/Chart.bundle.min.js"></script>
+
+<script>
+    function resizeIframe(obj) {
+        obj.style.height = (obj.contentWindow.document.body.scrollHeight + 20) + 'px';
+    }
+
+    $(document).ready(function () {
+        // Lightbox
+        $("a.grouped_elements").fancybox();
+
+        // Tool tips
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // Chart
+        var ctx = document.getElementById('chart-area').getContext("2d");
+        new Chart(ctx, eval({
+  "data" : {
+    "labels" : [ "Step 1", "Step 2", "Step 3", "Step 4" ],
+    "datasets" : [ {
+      "data" : [ 13747.0, 1929.0, 371.0, 2090.0 ],
+      "backgroundColor" : [ "rgba(40,167,69,1.000)", "rgba(40,167,69,1.000)", "rgba(40,167,69,1.000)", "rgba(40,167,69,1.000)" ],
+      "label" : "Step runtime"
+    } ]
+  },
+  "options" : {
+    "scales" : {
+      "xAxes" : [ {
+        "ticks" : {
+          "min" : 0
+        }
+      } ]
+    }
+  },
+  "type" : "bar"
+}));
+    })
+</script>
+</body>
+</html>
