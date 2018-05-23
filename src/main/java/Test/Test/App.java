@@ -15,5 +15,6 @@ public class App
     {
         System.out.println( "hsfsdif" );
         testing();
+	System.out.println( "exit" );
     }
 }
